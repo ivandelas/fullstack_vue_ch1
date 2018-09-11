@@ -27,7 +27,8 @@ const submissionComponent = {
         <strong class="has-text-info">{{ submission.votes }}</strong>
       </span>
     </div>
-  </div>`
+  </div>`,
+  props: ['submission', 'submissions']
 };
 
 new Vue({
